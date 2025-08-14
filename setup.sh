@@ -1,0 +1,2 @@
+./java.sh
+./python.sh
