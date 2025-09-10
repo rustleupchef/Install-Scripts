@@ -3,4 +3,5 @@
 !java.sh
 !python.sh
 !setup.sh
+!docker.sh
 !.gitignore
