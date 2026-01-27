@@ -4,4 +4,5 @@
 !python.sh
 !setup.sh
 !docker.sh
+!node.sh
 !.gitignore
