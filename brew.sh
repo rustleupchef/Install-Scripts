@@ -3,3 +3,8 @@ mkdir -p ~/.local/Homebrew
 curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C ~/.local/Homebrew
 
 echo 'export PATH="$HOME/.local/Homebrew/bin:$PATH"' >> $HOME/.zshrc
+
+
+# setup up application directory
+mkdir $HOME/Desktop/Applications
+echo 'export HOMEBREW_CASK_OPTS="--appdir=$HOME/Desktop/Applications"' >> ~/.zshrc
